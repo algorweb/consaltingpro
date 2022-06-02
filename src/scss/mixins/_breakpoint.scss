@@ -12,6 +12,13 @@
   }
 }
 
+// @include desktop
+@mixin desktop {
+  @media (max-width: (1140px)) {
+    @content;
+  }
+}
+
 @mixin tablet {
   @media (max-width: (1024px)) {
     @content;
